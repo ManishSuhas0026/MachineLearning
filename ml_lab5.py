@@ -36,7 +36,6 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 
 import seaborn as sns
-import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 
 cm = confusion_matrix(y_test, y_pred)
