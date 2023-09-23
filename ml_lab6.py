@@ -69,3 +69,11 @@ plt.title('Feature Importance')
 plt.xlabel('Importance')
 plt.ylabel('Feature')
 plt.show()
+
+plt.figure(figsize=(8, 6))
+plt.scatter(Y_test, Y_pred, alpha=0.5)
+plt.xlabel('Actual Charges')
+plt.ylabel('Predicted Charges')
+plt.title('Actual vs. Predicted Insurance Charges')
+plt.show()
+
